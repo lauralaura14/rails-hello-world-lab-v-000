@@ -136,6 +136,7 @@ Processing by StaticController#about as HTML
   Rendered static/hello_world.html.erb within layouts/application (2.0ms)
 Completed 200 OK in 198ms (Views: 187.8ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  rollback transaction
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36m (3.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
   [1m[35m (0.1ms)[0m  select sqlite_version(*)
@@ -151,3 +152,5 @@ Processing by StaticController#about as HTML
   Rendered static/about.html.erb within layouts/application (3.5ms)
 Completed 200 OK in 213ms (Views: 202.6ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  rollback transaction
+=======
+>>>>>>> a8b5924927dc26c1b95410048a5c5b117a8b829f
